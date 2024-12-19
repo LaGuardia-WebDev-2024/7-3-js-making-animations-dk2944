@@ -5,8 +5,8 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-var sunSize = 30; 
-
+var sunSize = 20; 
+var ladySize= 30;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
@@ -28,8 +28,10 @@ void draw(){
   
   //ladybug
   fill(200,0,0)
-  ellipse(10, 350, 10, 10)
+  ellipse(ladySize, 350, 10, 10)
 
+sunSize=sunSize+1
+ladySize=ladySize+1
 }
 
 
